@@ -1,8 +1,5 @@
 # Central de Operações Lunar
 
-![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=for-the-badge&logo=dotnet)
-![C#](https://img.shields.io/badge/C%23-Console-239120?style=for-the-badge&logo=csharp)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)
 
 ## Sumário
 
