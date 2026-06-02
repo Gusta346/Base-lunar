@@ -1,102 +1,319 @@
-# Central de Operações Lunar
+# 🌕 Central de Operações Lunar
 
+Sistema desenvolvido em **C# e .NET Console** que simula o gerenciamento de uma base lunar. O jogador assume o papel de operador da central de operações e deve monitorar sistemas, resolver ocorrências e tomar decisões estratégicas para garantir a sobrevivência da colônia.
 
-## Sumário
+---
 
-- [Sobre o projeto](#sobre-o-projeto)
-- [Objetivo](#objetivo)
-- [Motivação](#motivação)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Estrutura do projeto](#estrutura-do-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Robôs da base](#robôs-da-base)
-- [Como executar](#como-executar)
-- [Capturas de tela](#capturas-de-tela)
-- [Arquitetura](#arquitetura)
-- [Requisitos atendidos](#requisitos-atendidos)
+# 👨‍💻 Integrantes
 
-## Sobre o projeto
+| Nome                     | RM        |
+| ------------------------ | --------- |
+| Gustavo Oliveira Ribeiro | RM 559163 |
+| Gabriel Vasquez          | RM 557056 |
+| Augusto Douglas          | RM 558371 |
 
-A **Central de Operações Lunar** é uma simulação interativa em **C# / .NET 10 Console** sobre o monitoramento de uma base lunar.
+---
 
-O usuário assume o papel de operador da central e precisa acompanhar ocorrências, tomar decisões, resolver problemas e manter a base em funcionamento.
+# 🚀 Sobre o Projeto
 
-## Objetivo
+A **Central de Operações Lunar** é uma simulação interativa baseada em eventos. Durante a execução, a base lunar enfrenta situações inesperadas que exigem intervenção do operador.
 
-Criar uma experiência de console organizada e imersiva, com eventos diários, continuidade de acontecimentos, histórico e relatório final.
+O sistema foi desenvolvido com foco em:
 
-## Motivação
+* Programação Orientada a Objetos (POO)
+* Arquitetura em Camadas
+* Desacoplamento entre componentes
+* Injeção de Dependência
+* Simulação baseada em eventos
+* Organização e reutilização de código
 
-O projeto foi desenvolvido para praticar:
+O objetivo é manter a base operacional pelo maior número possível de dias, evitando falhas críticas que possam comprometer a missão.
 
-- Programação orientada a objetos
-- Herança e polimorfismo
-- Abstração e interfaces
-- Injeção de dependência
-- Tratamento de exceções
-- Organização modular do código
+---
 
-## Tecnologias utilizadas
+# 🎯 Objetivo da Simulação
 
-- C#
-- .NET 10
-- Aplicação Console
+O operador é responsável por:
 
-## Estrutura do projeto
+* Monitorar o estado da base lunar.
+* Resolver ocorrências técnicas.
+* Selecionar robôs para execução de tarefas.
+* Acompanhar eventos anteriores.
+* Consultar o histórico de operações.
+* Tomar decisões estratégicas.
+* Evitar o colapso da colônia.
 
-- **Aplicacao**: fluxo principal da central e interface com o operador
-- **Dominio**: robôs, ocorrências, estado da base, histórico e relatório
-- **Servicos**: monitoramento, resolução, notificação e histórico
-- **Interfaces**: contratos para desacoplamento
-- **Utilitarios**: formatação e apoio ao console
-- **Estruturas**: struct `CoordenadaLunar`
+Cada escolha realizada pode influenciar diretamente os acontecimentos futuros.
 
-## Funcionalidades
+---
 
-- Avanço de dias na base lunar
-- Geração aleatória de ocorrências
-- Ocorrências críticas, médias e leves
-- Eventos positivos raros
-- Resolução com robôs especializados
-- Manutenção de robôs
-- Histórico completo com data e hora
-- Relatório final de encerramento
-- Condições de derrota por falhas acumuladas ou ocorrências ignoradas
+# ⚙️ Como Funciona
 
-## Robôs da base
+A simulação ocorre em ciclos diários.
 
-### Robô Alfa
-**Especialidade:** Manutenção
+A cada novo dia:
 
-Responsável por:
-- Reparar painéis solares
-- Reparar geradores
-- Reparar antenas
-- Reparar sensores
+1. O estado da base é atualizado.
+2. Eventos pendentes podem continuar ou se agravar.
+3. Uma nova ocorrência pode ser gerada.
+4. O operador recebe informações sobre a situação.
+5. Uma decisão deve ser tomada:
 
-### Robô Beta
-**Especialidade:** Transporte
+   * Enviar um robô para resolver o problema.
+   * Ignorar a ocorrência.
+6. O sistema processa o resultado da ação.
+7. O histórico é atualizado.
+8. O status geral da base é reavaliado.
 
-Responsável por:
-- Transporte de suprimentos
-- Entrega de peças
-- Movimentação de equipamentos
+Caso muitas falhas críticas se acumulem, a missão poderá ser encerrada.
 
-### Robô Gama
-**Especialidade:** Exploração
+---
 
-Responsável por:
-- Investigar anomalias
-- Explorar novas regiões
-- Buscar recursos
+# 🤖 Sistema de Robôs
 
-## Como executar
+A base conta com robôs especializados para auxiliar na manutenção dos sistemas.
 
-1. Abra a solução no Visual Studio.
-2. Restaure os pacotes, se necessário.
-3. Execute o projeto `baselunar`.
-4. Use o menu principal para avançar os dias e acompanhar os eventos.
+Os robôs podem ser utilizados para:
 
-## Capturas de tela
+* Reparos estruturais.
+* Correção de falhas energéticas.
+* Manutenção de equipamentos.
+* Resolução de emergências.
 
-### Menu principal
+Dependendo da ocorrência, determinados robôs podem apresentar melhor desempenho.
+
+---
+
+# ⚠️ Sistema de Ocorrências
+
+Diversos eventos podem ocorrer durante a operação da base, como:
+
+* Falha no gerador principal.
+* Pane nos sistemas de comunicação.
+* Problemas em sensores.
+* Vazamento de oxigênio.
+* Falhas em módulos habitacionais.
+* Eventos críticos acumulados.
+
+Ocorrências ignoradas podem gerar consequências mais graves nos dias seguintes.
+
+---
+
+# 📊 Condições de Derrota
+
+A simulação pode ser encerrada quando:
+
+* Muitas falhas críticas são acumuladas.
+* Ocorrências importantes são ignoradas repetidamente.
+* A operação da base torna-se inviável.
+
+Ao final, o sistema gera um relatório completo da missão.
+
+---
+
+# 🏗️ Tecnologias Utilizadas
+
+* C#
+* .NET 10
+* Aplicação Console
+* Programação Orientada a Objetos (POO)
+* Injeção de Dependência
+* Arquitetura em Camadas
+
+---
+
+# 📁 Estrutura do Projeto
+
+## Aplicacao
+
+Responsável pelo fluxo principal da simulação e interação com o operador.
+
+## Dominio
+
+Contém as entidades, robôs, ocorrências, estado da base e histórico.
+
+## Servicos
+
+Implementa as regras de negócio e processamento dos eventos.
+
+## Interfaces
+
+Define contratos utilizados para abstração dos componentes.
+
+## Estruturas
+
+Contém a estrutura (struct) obrigatória utilizada na simulação.
+
+## Utilitarios
+
+Funções auxiliares de exibição e formatação.
+
+---
+
+# ▶️ Como Executar
+
+## Pré-requisitos
+
+* Visual Studio 2022 ou superior
+* .NET 10 SDK
+
+## Passos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Gusta346/Base-lunar.git
+```
+
+2. Abra a solução no Visual Studio.
+
+3. Compile o projeto.
+
+4. Execute a aplicação.
+
+5. Utilize o menu principal para interagir com a Central de Operações Lunar.
+
+---
+
+# 📸 Evidências da Aplicação
+
+## Tela Inicial
+
+*Inserir captura da tela inicial da aplicação.*
+
+![Tela Inicial](Imagens/tela-inicial.png)
+
+---
+
+## Menu Principal
+
+*Inserir captura do menu principal.*
+
+![Menu Principal](Imagens/menu-principal.png)
+
+---
+
+## Visualização dos Robôs
+
+*Inserir captura mostrando os robôs disponíveis.*
+
+![Robôs](Imagens/robos.png)
+
+---
+
+## Ocorrência Detectada
+
+*Inserir captura de uma ocorrência gerada pelo sistema.*
+
+![Ocorrência](Imagens/ocorrencia.png)
+
+---
+
+## Resolução de Ocorrência
+
+*Inserir captura da escolha de um robô para resolver uma situação.*
+
+![Resolução](Imagens/resolucao.png)
+
+---
+
+## Histórico de Eventos
+
+*Inserir captura da tela de histórico.*
+
+![Histórico](Imagens/historico.png)
+
+---
+
+## Status da Base
+
+*Inserir captura do status atual da base lunar.*
+
+![Status da Base](Imagens/status-base.png)
+
+---
+
+## Relatório Final
+
+*Inserir captura do relatório gerado ao término da simulação.*
+
+![Relatório Final](Imagens/relatorio-final.png)
+
+---
+
+# 🖥️ Exemplo de Menu
+
+```text
+==================================================
+CENTRAL DE OPERAÇÕES LUNAR
+==================================================
+
+1 - Avançar Dia
+2 - Visualizar Robôs
+3 - Consultar Histórico
+4 - Status da Base
+5 - Encerrar Sistema
+
+Selecione uma opção:
+```
+
+---
+
+# 🔧 Exemplo de Ocorrência
+
+```text
+==================================================
+DIA 15
+==================================================
+
+Ocorrência Detectada:
+
+Falha no Gerador Principal
+
+Ação Necessária:
+
+1 - Enviar Robô Alfa
+2 - Enviar Robô Beta
+3 - Enviar Robô Gama
+4 - Ignorar Ocorrência
+
+Escolha uma opção:
+```
+
+---
+
+# 📈 Exemplo de Relatório Final
+
+```text
+RELATÓRIO FINAL
+
+Motivo:
+3 ocorrências críticas foram ignoradas consecutivamente.
+
+Dias executados: 9
+Falhas críticas acumuladas: 2
+Ocorrências críticas ignoradas consecutivamente: 3
+
+Data de encerramento:
+01/07/2026 12:40
+```
+
+---
+
+# 🏛️ Arquitetura
+
+A aplicação segue uma arquitetura em camadas com separação entre:
+
+* Apresentação
+* Domínio
+* Serviços
+* Interfaces
+* Utilitários
+
+Essa abordagem facilita a manutenção, evolução e reutilização do código.
+
+---
+
+# 📄 Licença
+
+Projeto desenvolvido para fins acadêmicos.
