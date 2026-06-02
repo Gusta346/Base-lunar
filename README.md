@@ -221,7 +221,8 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura da tela de histórico.*
 
-<img width="1119" height="639" alt="image" src="https://github.com/user-attachments/assets/e8f27932-c493-4fe7-9d41-7013227fdc72" />
+<img width="1119" height="628" alt="Captura de tela 2026-06-02 190957" src="https://github.com/user-attachments/assets/b8ed82e5-4b52-45b4-bb1f-f090f7e0e6f9" />
+
 
 
 ---
