@@ -1,0 +1,13 @@
+1. Iniciar sistema.
+2. Exibir menu principal.
+3. Ler opção do operador.
+4. Se a opção for avançar dia, processar o dia atual.
+5. Verificar consequências pendentes do dia.
+6. Sortear ocorrência ou mensagem de rotina.
+7. Se houver ocorrência, exibir ações possíveis.
+8. Permitir escolha de robô ou ignorar.
+9. Aplicar resultado da decisão.
+10. Registrar histórico.
+11. Verificar condições de derrota.
+12. Exibir status ou histórico quando solicitado.
+13. Encerrar ao atingir condição final.

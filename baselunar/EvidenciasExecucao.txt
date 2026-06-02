@@ -1,0 +1,49 @@
+Evidências de execução simuladas
+
+1. Tela inicial
+==================================================
+CENTRAL DE OPERAÇÕES LUNAR
+==========================
+
+1 - Avançar dia
+
+2 - Visualizar robôs
+
+3 - Consultar histórico
+
+4 - Status da base
+
+5 - Encerrar sistema
+
+Selecione uma opção:
+
+2. Ocorrência crítica
+==================================================
+DIA 15
+======
+
+Ocorrência Detectada:
+
+Falha no gerador principal
+
+Ação necessária:
+
+1 - Enviar Robô Alfa
+
+2 - Enviar Robô Beta
+
+3 - Enviar Robô Gama
+
+4 - Ignorar ocorrência
+
+Escolha uma opção:
+
+3. Sucesso
+[RESULTADO] Robô Alfa concluiu a ação com sucesso.
+
+4. Falha
+[RESULTADO] Robô Beta não conseguiu resolver a ocorrência.
+
+5. Relatório final
+RELATÓRIO FINAL
+Motivo: 3 ocorrências críticas foram ignoradas consecutivamente.

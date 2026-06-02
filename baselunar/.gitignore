@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vsidx
+
+# Logs
+*.log
+
+# IDE caches
+.idea/
+*.cache
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Publish output
+publish/

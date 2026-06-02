@@ -1,0 +1,26 @@
+Arquitetura da Central de Operações Lunar
+
+1. Camada de Aplicação
+   - Conduz o fluxo principal do console.
+   - Exibe menus e interpreta as escolhas do operador.
+
+2. Camada de Domínio
+   - Contém robôs, ocorrências, estado da base, histórico, relatório e equipamentos.
+   - Mantém as regras centrais da simulação.
+
+3. Camada de Serviços
+   - Gera ocorrências.
+   - Resolve ações dos robôs.
+   - Registra histórico.
+   - Centraliza a injeção de dependência.
+
+4. Camada de Interfaces
+   - Define contratos para notificação, monitoramento, histórico, resolução e impressão.
+
+5. Utilitários
+   - Padronizam a aparência do console.
+
+6. Estruturas
+   - Contêm a struct CoordenadaLunar usada na modelagem da base.
+
+A solução foi organizada para manter o desacoplamento e facilitar manutenção futura.
