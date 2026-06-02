@@ -177,19 +177,13 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 # 📸 Evidências da Aplicação
 
-## Tela Inicial
-
-*Inserir captura da tela inicial da aplicação.*
-
-![Tela Inicial](Imagens/tela-inicial.png)
-
----
 
 ## Menu Principal
 
 *Inserir captura do menu principal.*
 
-![Menu Principal](Imagens/menu-principal.png)
+<img width="1110" height="641" alt="menu" src="https://github.com/user-attachments/assets/43d34ee5-5d52-4c36-80d4-c255bba9d345" />
+
 
 ---
 
@@ -197,7 +191,10 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura mostrando os robôs disponíveis.*
 
-![Robôs](Imagens/robos.png)
+
+<img width="1107" height="617" alt="image" src="https://github.com/user-attachments/assets/5dbd0364-b452-4337-8634-017d823edac4" />
+
+
 
 ---
 
@@ -205,7 +202,9 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura de uma ocorrência gerada pelo sistema.*
 
-![Ocorrência](Imagens/ocorrencia.png)
+<img width="1113" height="617" alt="image" src="https://github.com/user-attachments/assets/a2798ea7-3f3e-48b1-bf6f-799e1d9fe78b" />
+
+
 
 ---
 
@@ -213,7 +212,8 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura da escolha de um robô para resolver uma situação.*
 
-![Resolução](Imagens/resolucao.png)
+<img width="1115" height="621" alt="image" src="https://github.com/user-attachments/assets/316e6dc6-d27e-45ba-813d-561e884b416e" />
+
 
 ---
 
@@ -221,7 +221,8 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura da tela de histórico.*
 
-![Histórico](Imagens/historico.png)
+<img width="1119" height="639" alt="image" src="https://github.com/user-attachments/assets/e8f27932-c493-4fe7-9d41-7013227fdc72" />
+
 
 ---
 
@@ -229,7 +230,8 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura do status atual da base lunar.*
 
-![Status da Base](Imagens/status-base.png)
+<img width="1109" height="617" alt="image" src="https://github.com/user-attachments/assets/cb75dfa3-42a9-457c-be5b-ae184e26d9e4" />
+
 
 ---
 
@@ -237,7 +239,8 @@ git clone https://github.com/Gusta346/Base-lunar.git
 
 *Inserir captura do relatório gerado ao término da simulação.*
 
-![Relatório Final](Imagens/relatorio-final.png)
+<img width="1116" height="621" alt="image" src="https://github.com/user-attachments/assets/bdac1860-67e1-4469-af40-8f68604f4f45" />
+
 
 ---
 
